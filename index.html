@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<!---Google Font--->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+<!-----Font Awesome CDN----->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/d7823e151c.js" crossorigin="anonymous"></script>
+<style type="text/css">
+*{margin:0;
+padding:0;
+box-sizing:border-box}
+/*Header Design*/
+.header_div{
+max-width:100%;
+height:550px;
+background:url('https://i.ibb.co/tzcNQyn/images-1.jpg" alt="images-1');
+background-size:cover;
+background-repeat:no-repeat;
+margin:0 auto;
+position:relative
+}
+
+.header_div .navbar_div{
+width:100%;
+height:65px;
+background:rgba(0,0,0,0.5);
+border:1px solid gray;
+
+}
+
+.profile_name_div{
+width:30%;
+float:left;
+color:tomato;
+font-weight:bold;
+text-align:center;
+padding-top:9px;
+}
+.profile_name_div h1{
+font-family: 'Roboto Mono', monospace;
+font-size:35px;
+text-shadow:1px 1px 3px #fff
+}
+
+
+.navbar_content_div{
+width:70%;
+float:left;
+text-align:center;
+padding-top:20px
+}
+.navbar_content_div a{
+cursor:pointer;
+margin-left:30px;
+color:#fff;
+padding:10px;
+text-decoration:none;
+font-weight:bold;
+font-size:25px;
+border-radius:3px;}
+
+.navbar_content_div a:hover{
+background-color: rgba(172, 205, 211, 0.4); 
+}
+.clear{clear:both}
+
+
+/*....About Me....*/
+.about_me_div{
+width:75%;
+height:340px;
+padding:20px 30px;
+position:absolute;
+margin-top:110px;
+}
+
+.about_me_div span{
+font-size:40px;
+color:#FF1493
+}
+.about_me_div h1{
+font-size:65px;
+color:#fff;
+text-shadow:4px 4px 7px blue;
+}
+.about_me_div i{
+font-size:22px;
+color:#fff
+}
+.margin{margin-top:15px}
+
+.about_me_div select{
+width:180px;
+height:65px;
+background:none;
+border:1px solid #fff;
+font-size:32px;
+color:#fff;
+margin-left:200px;
+margin-top:20px
+}
+/*....End About Me....*/
+.mydes{
+width:100%;
+height:520px;
+background:url('https://i.ibb.co/MMfhNKf/images-12.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+position:relative;
+
+}
+.mydes .aboutme{
+width:100%;
+height:70px;
+text-align:center;
+color:#fff;
+margin-top:20px;
+position:absolute ;
+padding-top:10px
+}
+.mydes .aboutme h2{font-size:35px;
+text-shadow:2px 2px 4px #000;}
+
+.my-description{
+width:100%;
+height:370px;
+position:absolute;
+margin-top:120px
+
+}
+.profile_image_div{
+width:28%;
+float:left;
+
+}
+.profile_image_div img{width:220px;
+height:220px;
+border-radius:50%;
+border:3px solid #fff;
+margin-top:35px;
+margin-left:40px}
+
+
+.my_div{
+width:72%;
+float:left;
+padding:25px;
+color:#fff;
+
+}
+.my_div h2{font-size:35px;
+text-shadow:2px 2px 4px #000;
+color:#fff}
+.my_div span{
+color:orange;
+text-shadow:2px 2px 4px red;
+
+}
+
+.my_div table{width:600px;
+height:250px;
+font-weight:bold;
+font-size:25px;
+}
+.my_div i{
+font-size:50px;
+border-radius:15px
+}
+.my_div .facebook{
+color:#0e8ff2;
+background:#fff
+}
+.my_div .instagram{
+color:#FF6347;
+background:#fff
+}
+.my_div .github{
+color:#fff;
+background:#000
+}
+
+.my_div .gmail{
+color:#fff
+background:red
+}
+.my_div .phone{
+color:#fff
+background:#000
+}
+
+.my_div a{text-decoration:none;
+color:#FFFAFA;
+cursor:pointer}
+
+/*........My Service.......*/
+.my_service_div{
+width:100%;
+height:880px;
+background:silver;
+position:relative
+}
+.headline{text-align:center;
+margin-top:10px;
+font-weight:bold;
+font-size:40px;
+text-shadow:2px 2px 4px #fff;
+position:absolute;
+width:100%;
+height:40px;
+color:#1E90FF}
+
+.web_lan_div{display:flex;
+justify-content:center;
+align-item:center;
+margin-top:50px;
+position:absolute 
+}
+.prog_lan_div{display:flex;
+justify-content:center;
+align-item:center;
+position:absolute;
+margin-top:455px
+
+}
+.div{
+width:300px;
+text-align:center;
+border:3px solid #000;
+background:#4B0082;
+padding:3px;
+box-sizing:border-box;
+color:#fff;
+margin-left:20px;
+margin-top:10px;
+box-shadow:2px 2px 5px blue
+}
+.div:hover{
+box-shadow:2px 2px 5px red;
+background:#2F4F4F
+}
+.my_service_div span{opacity:0.5}
+.my_service_div p{font-size:22px}
+.my_service_div h2{color:#FA8072;
+text-shadow:2px 2px 4px red;}
+
+.html_div img{width:50px;
+border-radius:30%;
+}
+
+.css_div img{width:40px}
+.bootstrap_div img{width:50px;
+}
+.js_div img{width:50px;
+border-radius:30%}
+.python_div img{width:40px}
+.c_div img{width:50px;
+}
+
+
+/*........My Teams Div.......*/
+.teams_div{width:100%;
+height:830px;
+background:#fff;
+}
+
+.teams_div .myteamh{
+width:100%;
+height:120px;
+text-align:center;
+padding-top:25px;
+}
+
+.teams_div .myteamh h1{
+font-size:45px;
+text-shadow:2px 2px 4px #000;
+}
+.teams_div .myteamh small{
+font-size:20px;
+color:orange
+}
+.onlinePik{width:100%
+text-align:center}
+
+.onlinePik img{width:400px;
+border-radius:20px;
+margin-top:40px;
+margin-left:50px;
+box-shadow:3px 3px 7px black}
+
+.onlinePik img:hover{
+box-shadow:3px 3px 7px pink
+
+}
+
+.card-container{
+width:100%;
+height:430px;
+display:flex;
+justify-content:center;
+align-item:center;}
+.card{
+width:300px;
+height:360px;
+background:gray;
+text-align:center;
+padding:8px;
+margin-left:10px;
+margin-top:20px;
+box-shadow:2px 2px 5px black;
+border-radius:10px;
+}
+.card:hover{box-shadow:2px 2px 5px orange;
+background:#4B0082}
+.card img{width:150px;
+height:150px;
+border-radius:50%}
+.card h1{color:#0000FF}
+.card p{color:#fff}
+
+/*...........My Skill.........*/
+.my_skill_div{
+width:100%;
+height:630px;
+position:relative;
+
+}
+
+.my_skill_div .skill{
+width:100%;
+height:70px;
+text-align:center;
+margin-top:20px;
+position:absolute;
+padding-top:10px
+}
+.my_skill_div .skill h1{
+font-size:50px;
+color:#B22222;
+font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+       .skill-container{
+           width: 600px;
+           padding: 20px;
+           position:absolute;
+           margin-top:90px;
+           margin-left:100px
+       }
+
+       .skill-container li{
+           list-style-type: none;
+           margin: 70px 0;
+           font-weight: bolder;
+           font-size:30px;
+           text-transform: uppercase;
+           position: relative;
+       }
+
+       .skill-container li::before{
+
+           content: '';
+           position: absolute;
+           top: calc(100% + 5px);
+           left: 0;
+
+
+           background-color: rgb(170,167,173);
+           width: 100%;
+           height: 40px;
+           border-radius: 1000px;
+       }
+
+
+       .skill-container li::after{
+
+           content: '';
+           position: absolute;
+           top: calc(100% + 5px);
+           left: 0;
+
+
+           background-color: rgb(249,249,250);
+           width: 0;
+           height: 40px;
+           border-radius: 1000px;
+
+           animation-iteration-count:infinite;
+           animation-duration: 3s;
+           animation-timing-function: ease;
+           animation-delay: 1s;
+           /* animation-iteration-count: 3; */
+           /* animation-direction: forward; */
+           animation-fill-mode: forwards;
+       }
+
+       .skill-container li.html::after{
+           animation-name: html;
+       }
+
+       @keyframes html{
+           to{
+               width: 95%;
+               background-color: orange;
+           }
+       }
+
+       .skill-container li.css::after{
+           animation-name: css;
+       }
+
+       @keyframes css{
+           to{
+               width: 85%;
+               background-color: orangered;
+           }
+       }
+       
+       
+       .skill-container li.js::after{
+       animation-name: js;
+       }
+       
+       @keyframes js{
+       to{
+       width: 60%;
+       background-color: blue;
+       }
+       }
+       
+       .skill-container li.bs::after{
+       animation-name: bs;
+       }
+       
+       @keyframes bs{
+       to{
+       width: 80%;
+       background-color: #8A2BE2;
+       }
+       }
+       
+       
+       .skill-container li.py::after{
+       animation-name: py;
+       }
+       
+       @keyframes py{
+       to{
+       width: 50%;
+       background-color: #FF1493;
+       }
+       }
+       
+       
+       .skill-container li.cplus::after{
+       animation-name: cplus;
+       }
+       
+       @keyframes cplus{
+       to{
+       width: 70%;
+       background-color: #ADFF2F;
+       }
+       }
+       
+       
+ /*..........Contact Design.......*/
+.contact_div{
+width:100%;
+height:870px;
+border:2px solid ;
+margin-top:200px;
+}
+
+
+.contact_text{
+width:100%;
+height:300px;
+text-align:center;
+padding:10px
+}
+
+.contact_text h1{font-size:50px;
+color:#008080}
+.contact_text p{font-size:30px;
+color:#40E0D0}
+
+
+.input_div{
+width:100px;
+text-align:center
+}
+.input_div input{margin-top:12px;
+margin-left:155px;
+width:700px;
+border-radius:10px;
+height:80px;
+padding:10px;
+cursor:pointer;
+box-sizing:border-box;
+border:3px solid black;
+box-shadow:2px 2px 4px #008080;
+font-weight:bold;
+outline:none;
+font-size:25px;
+}
+/*..............
+Annimated Button start...…......
+................*/
+
+
+
+.button {
+  margin-top:18px;
+  margin-left:155px;
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 10px 10px 20px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-5px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+
+
+
+/*..............
+Annimated Button end...…......
+................*/
+
+.input_div input:hover{
+box-shadow:2px 2px 6px yellow,-2px -2px 6px yellow;
+
+}
+.input_div #sms{width:500px;
+height:200px;
+padding:10px;
+border-radius:10px}
+
+.input_div #button{
+background:green;
+font-size:42px;
+cursor:pointer;
+border:2px solid ;
+width:700px;
+}
+
+/*..........My works.......*/
+
+.myworks{width:100%;
+height:70px;
+text-align:center;
+font-size:25px;
+color:#00FFFF;
+text-shadow:1px 1px 2px red}
+.table_div{width:100%;
+height:520px;
+background:silver;
+padding:5px}
+
+.table_div table{text-align:center;
+width:950px;
+height:500px;
+font-size:30px;
+font-weight:bold}
+
+.table_div table th{color:#00008B;
+font-size:40px}
+
+
+/*.....Footer.....*/
+.footer_div{width:100%;
+height:300px;
+background:#000;
+font-weight:bold;
+font-size:35px;
+color:#fff;
+padding:50px 200px
+}
+
+.footer_div .i{padding:15px 10px;
+font-size:60px}
+
+.footer_div i{
+font-size:28px}
+.footer_div i:hover{
+color:#FA8072
+
+}
+
+.footer_div a{text-decoration:none;
+color:#fff}
+
+.cc{text-align:right;
+color:#fff;
+font-size:27px;
+text-shadow:1px 1px 2px red;
+padding:15px;
+}
+</style>
+</head>
+<body>
+<!---Header Div--->
+<div class="header_div">
+<!---Navbar Div-->
+  <div class="navbar_div">
+    <div class="profile_name_div">
+      <h1>Rubel Mahmud</h1>
+    </div>
+    <div class="navbar_content_div">
+    <a href="#" >Home</a>
+    <a href="#" >Blog
+       
+    
+    </a>
+    <a href="#" >Contact</a>
+    <a href="#" >News</a>
+    <a href="#" >About</a>
+    </div>
+    <div class="clear">
+    </div>
+  </div>
+<!---About Me Div-->
+<p class="cc"><span id="time">05:34:17</span>  <span id="formate">PM</span></p>
+<div class="about_me_div">
+  <span class="margin">Hellow,World.</span>
+  <h1 class="margin">I'm Rubel Mahmud</h1>
+  <p></p><p></p>
+  <p><i class="margin itag">FRONT-END DEVELOPER <br>UI/UX DESIGNER.</i></p>
+  <p></p><p></p>
+  <select>
+  <option>Read More..</option>
+  </select>
+</div>
+<!---End About Me--->
+</div>
+<!---End Header--->
+
+<!----My Description---->
+<div class="mydes">
+  <div class="aboutme">
+    <h2>About Me</h2>
+    <hr>
+  </div>
+  <div class="my-description">
+    <div class="profile_image_div">
+      <img src="https://i.ibb.co/sFXNRqg/IMG-20200125-231218-085.jpg" alt="IMG-20200125-231218-085">
+    </div>
+    <div class="my_div">
+      <h2>Hellow,I'm <span class="annimated-text"></span></h2>
+      <table>
+      <tr>
+      <td><i class="fas fa-envelope-square gmail"></i></td>
+      <td>Rubel48Mahmud@gmail.com</td>
+      </tr>
+      <tr>
+      <td><i class="fab fa-facebook facebook"></i></td>
+      <td><a href="https://www.facebook.com/Rubel48Mahmud" >https://www.facebook.com/Rubel48Mahmud</a></td>
+      </tr>
+      <tr>
+      <td><i class="fab fa-instagram-square instagram"></i></td>
+      <td><a href="https://www.instagram.com/rubel48mahmud/" >https://www.instagram.com/rubel48mahmud/</a></td>
+      </tr>
+      <tr>
+      <td><i class="fab fa-github-square github"></i></td>
+      <td><a href="https://github.com/Rubel48Mahmud" >https://github.com/Rubel48Mahmud</a></td>
+      </tr>
+      <tr>
+      <td><i class="fas fa-address-book phone"></i></td>
+      <td>01878905617</td>
+      </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-------My Service------>
+
+<div class="my_service_div">
+  <div class="headline">My Service</div>
+  <div class="web_lan_div">
+    <div class="html_div div">
+    <img src="https://i.ibb.co/hg7TM1t/html-logo.png" alt="html-logo" border="0">
+    <div>
+    <h2>HTML</h2>
+    <p>The HyperText Markup Language, 
+    or HTML is the standard markup language for 
+    documents designed to be displayed 
+    in a web browser.
+    It can be assisted by technologies 
+    such as Cascading Style Sheets and scripting 
+    languages such as JavaScript. 
+    <span> see more...</span></p>
+    </div>
+    </div>
+    
+    
+    <div class="css_div div">
+    <img src="https://i.ibb.co/cJ26Rfc/css3-logo.png" alt="css3-logo" border="0">
+    <div>
+    <h2>CSS</h2>
+    <p>Cascading Style Sheets is a style
+     sheet language used for describing the 
+     presentation of a document written in a 
+     markup language such as HTML. CSS is a cornerstone 
+     technology of the World Wide Web, alongside HTML 
+     and JavaScript.  <span> see more...</span></p>
+    </div>
+    </div>
+    
+    
+    <div class="bootstrap_div div">
+    <img src="https://i.ibb.co/QPgNGxJ/bootstrap-logo.png" alt="bootstrap-logo">
+    <div>
+    <h2>Bootstrap</h2>
+    <p>Bootstrap is a free and open-source CSS 
+    framework directed at responsive,
+     mobile-first front-end web development. 
+     It contains CSS- and JavaScript-based design templates 
+     for typography, forms, buttons, navigation, and other interface components. <span> see more...</span></p>
+    </div>
+    </div>
+    
+    
+  </div>
+  
+  
+  <div class="prog_lan_div">
+    <div class="python_div div">
+    <img src="https://i.ibb.co/f8wRmSg/python-logo.png" alt="python-logo" border="0">
+    <div>
+    <h2>Python</h2>
+    <p>Python is an interpreted high-level 
+    general-purpose programming language. 
+    Python's design philosophy emphasizes 
+    code readability with its notable use of 
+    significant indentation.
+    <span> see more...</span></p>
+    </div>
+    </div>
+    
+    
+    <div class="js_div div">
+     <img src="https://i.ibb.co/hMj6XJp/js.jpg" alt="js" border="0">
+    <div>
+    <h2>Javascript</h2>
+    <p>JavaScript, often abbreviated as JS,
+     is a programming language that conforms 
+     to the ECMAScript specification. 
+     JavaScript is high-level, often just-in-time compiled,
+      and multi-paradigm. It has curly-bracket syntax, 
+       <span> see more...</span></p>
+    </div>
+    </div>
+    
+    
+    <div class="c_div div">
+    <img src="https://i.ibb.co/bmw8Ygw/c-logo.png" alt="c-logo" border="0">
+    <div>
+    <h2>C++</h2>
+    <p>C++ is a general-purpose programming language created
+     by Bjarne Stroustrup as an extension of the 
+     C programming language, or " C with ...
+      dynamic typing, prototype-based object-orientation, 
+      and first-class functions.<span> see more...</span></p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!--------My Teams Div-------->
+<div class="teams_div">
+  <div class="myteamh">
+    <h1>My Teams</h1>
+    <small>Who with Me</small>
+  </div>
+  <div class="onlinePik">
+    <img src="https://i.ibb.co/L1MypFL/Screenshot-20210625-165500.png" alt="Screenshot-20210625-165500" border="0">
+    <img src="https://i.ibb.co/xDsxKtz/cute-freelance-girl-using-laptop-sitting-floor-smiling-176420-20221.jpg" alt="cute-freelance-girl-using-laptop-sitting-floor-smiling-176420-20221" border="0">
+  </div>
+  
+
+
+  <div class="card-container">
+  <div class="card">
+  <img src="https://i.ibb.co/LZ1J7wY/images-8.jpg" alt="images-8" border="0">
+  <h1>Edward</h1>
+  <p>My Name is Edward.I am a freelencer.
+  I do many things ,
+  Honestly i say i love to play the guitar,
+  listen music and side by side 
+  i also do same other creative things 
+  like making art , photoshop the pictures , 
+  and some other work on the internet .</p>
+  </div>
+  
+  <div class="card">
+  <img src="https://i.ibb.co/Fgj1f1b/images-7.jpg" alt="images-7" border="0">
+  <h1>Olivia</h1>
+  <p>My Name is Olivia.I am a freelencer.
+  I do many things ,
+  Honestly i say i love to play the guitar,
+  listen music and side by side 
+  i also do same other creative things 
+  like making art , photoshop the pictures , 
+  and some other work on the internet .</p>
+  </div>
+  
+  <div class="card">
+  <img src="https://i.ibb.co/x8dXcWn/images-9.jpg" alt="images-9" border="0">
+  <h1>Jack</h1>
+  <p>My Name is Jack.I am a freelencer.
+  I do many things ,
+  Honestly i say i love to play the guitar,
+  listen music and side by side 
+  i also do same other creative things 
+  like making art , photoshop the pictures , 
+  and some other work on the internet .</p>
+  </div>
+  </div>
+</div>
+
+<!-----------My Skill--------->
+<div class="my_skill_div">
+   
+  <div class="skill">
+  <h1>My Skill</h1>
+  <hr>
+  </div>
+  
+  
+  <div class="skill-container">
+  <ul>
+  
+  <li class="html">HTML 95%</li>
+  <li class="css">CSS 85%</li>
+  <li class="js">JS 60%</li>
+  <li class="bs">Bootstrap 80%</li>
+  <li class="py">Python 50%</li>
+  <li class="cplus">C++ 70%</li>
+  
+  </ul>
+  </div>
+</div>
+
+<!-------Contact Div------->
+
+<div class="contact_div">
+  <div class="contact_text">
+    <h1>Contact With Me</h1>
+    <p>Do you want higher me? <br>
+    Fill out the form and fill me in <br>with the details :) 
+    I love meeting <br>new people!</p>
+  </div>
+  
+  <div class="input_div">
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  <input type="email" id="email" placeholder="Enter Your E-mail" required>
+  <input type="textarea" id="sms" placeholder="Massage" required>
+  <button class="button" onclick="mysubmitbtn()">Submit</button>
+  </div>
+</div>
+
+<!--------My Project------>
+<div class="myworks">
+  <h1>The projects that I have created.</h1>
+</div>
+<div class="table_div">
+  <table border="1">
+    <tr>
+      <th>Project Name</th>
+      <th>Language</th>
+      <th>Demo</th>
+    </tr>
+    
+    <tr>
+    <td>Calculator</td>
+    <td>HTML,CSS,Javascript</td>
+    <td><a href="https://rubel48mahmud.github.io/myBestCalculator/" >See Previow</a></td>
+    </tr>
+    
+    <tr>
+    <td>Calender</td>
+    <td>HTML,CSS,Javascript</td>
+    <td><a href="https://rubel48mahmud.github.io/Romadan2021/">See Preview</a></td>
+    </tr>
+    
+    <tr>
+    <td>Love Parcentge</td>
+    <td>HTML,CSS,Javascript</td>
+    <td><a href="https://rubel48mahmud.github.io/CheckLovePercentage/" >See Previou</a></td>
+    </tr>
+    
+    <tr>
+    <td>JS Clock</td>
+    <td>HTML,CSS,Javascript</td>
+    <td><a href="https://github.com/Rubel48Mahmud/mynewrepo/blob/main/index.html.html">Code preview</a></td>
+    
+    <tr>
+    <td>Check Result</td>
+    <td>HTML,CSS,Javascript</td>
+    <td><a href="https://rubel48mahmud.github.io/newRepo/" >See Previow</a></td>
+    </tr>
+    
+    
+    <tr>
+    <td>Others project</td>
+    <td>GitHub Link</td>
+    <td><a href="https://github.com/settings/profile" >Visit Site</a></td>
+    </tr>
+  
+  </table>
+
+</div>
+
+<!---------Footer------->
+<div class="footer_div">
+<p><a href="https://www.facebook.com/Rubel48Mahmud">&#169<i>Copyright</i> Rubel Mahmud</a></p>
+<i class="fas fa-envelope-square gmail i"></i>
+<i class="fab fa-facebook facebook i"></i>
+<i class="fab fa-instagram-square instagram i"></i>
+<i class="fab fa-github-square github i"></i>
+<i class="fas fa-address-book phone i"></i>
+
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script type="text/javascript">
+
+
+
+function digitalClock(){
+let date=new Date();
+let hours=date.getHours();
+let minutes=date.getMinutes();
+let seconds=date.getSeconds();
+let timeFormate='AM';
+
+if(hours===0){
+hours=12;}
+if(hours>12){
+hours=hours-12;
+timeFormate='PM'}
+
+hours=hours<10?'0'+hours :hours;
+minutes=minutes<10?'0'+minutes :minutes;
+seconds=seconds<10?'0'+seconds :seconds;
+
+var time = document.getElementById("time");
+var formate = document.getElementById("formate");
+
+time.innerHTML=hours+":"+minutes+":"+seconds;
+formate.innerHTML=timeFormate
+}
+setInterval(digitalClock,1000);
+
+
+
+
+
+
+
+
+var typed = new Typed('.annimated-text',{
+ 
+  strings: [
+    'Rubel Mahmud.',
+    'a Web Developer.',
+    'a Programmer',
+   
+  ],
+  typeSpeed: 70,
+  backSpeed: 70,
+  startDelay: 1500,
+  loop: true,
+  
+  
+});
+
+
+
+
+</script>
+</body>
+</html>
